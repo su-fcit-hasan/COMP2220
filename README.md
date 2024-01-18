@@ -1,4 +1,4 @@
-# COMP2108 - Object-Oriented Programming - 202301
+# COMP2220 - Web Information Systems - 202302
 
 ## FCIT, Sohar University, Oman
 
