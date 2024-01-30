@@ -118,8 +118,8 @@ if (!empty($_GET['q'])) {
 <body>
   <header>
     <img class="header__item header--logo" src="https://i.imgur.com/ky9oqct.png" alt="Offline">
-    <h1 class="header__item header--title" title="Laragon">Laragon - Portable Local Web Server</h1>
-    <h2 class="header__item header--title" title="Laragon">Modified by Hasan Ali Khattak</h2>
+    <h1 class="header__item header--title" title="Laragon">Laragon</h1>
+    <h2 class="header__item header--title" title="Laragon">Portable Local Web Server Modified by Hasan Ali Khattak</h2>
     
   </header>
   <main>
