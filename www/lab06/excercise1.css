@@ -1,0 +1,23 @@
+figure {
+ background-color: #ededdd;
+ border: 1pt solid #a8a8a8;
+ padding: 5px;
+ width: 150px;
+ top: 150px;
+ left: 300px;
+ position: absolute;
+}
+
+img {
+ width: 150px;
+ height: 150px;
+}
+
+figcaption {
+ background-color: #ededdd;
+ padding: 5px;
+ top: 150px;
+ left: 200px;
+ position: absolute;
+ z-index: -1;
+}

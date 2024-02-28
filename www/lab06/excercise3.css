@@ -1,0 +1,51 @@
+img{
+    width: 1rem;
+}
+h1 {
+    font-size: 1.5em;
+    margin: 0.25em;
+}
+
+h2 {
+    font-size: 1.25em;
+    margin: 0.25em;
+}
+
+h3 {
+    font-size: 1em;
+    margin: 0.25em;
+}
+
+p {
+    margin: 0.25em;
+}
+
+a:hover {
+    color:green
+}
+
+li { 
+    list-style: none;
+}
+
+header {
+    color: white;
+    background-color: lightslategrey;
+    height: 3em;
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+#main {
+    padding: 0.5em;
+    background-color: lightgoldenrodyellow;
+    margin-left: 12em;
+}
+
+nav{
+    color: white;
+    background-color: lightslategrey;
+    padding: 0.5em;
+    width: 10em;
+    float: left;
+}
