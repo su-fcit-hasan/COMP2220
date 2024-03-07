@@ -1,19 +1,16 @@
+<!DOCTYPE html>
 <html>
-<body>
-    <button onclick="ftn1()">Click Me</button>
-    <ul id="myList">
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
-    </ul>
+    <head>
+        <script src="script.js"></script>
+        <title>Week 08</title>
+    </head>
 
-  <script>   
-    function ftn1(){
-        var listItems = document.getElementById('myList').getElementsByTagName('li');
-        for (var i = 0; i < listItems.length; i++) {
-            listItems[i].style.color = 'green';        
-        }
-    }
-  </script>
-</body>
+    <body>
+        <h1>What is JavaScript, and why is it important in web development?</h1>
+        <p>Javascript provides webpages with the interactivity and also its compatible will all browsers.</p>
+        <button onclick="ftn1()">ODD - EVEN </button>
+        <button onclick="ftn2()">String length </button>
+        <button onclick="ftn3()">String length in while loop </button>
+        <div id="demo"></div>
+    </body>
 </html>
