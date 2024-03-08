@@ -1,0 +1,40 @@
+
+figure {
+ background-color: #ededdd;  
+ border: solid 1pt #A8a8a8;
+ padding: 5px;
+ width: 200px;
+ position: relative;
+ top: 15px;
+ left: 300px; 
+}
+figcaption {
+    background-color: #ededdd;
+    padding: 5px;
+}
+img {
+    width: 200px;
+    height: 200px;
+}
+
+a:link {
+    background-color: lime;
+    color: red;
+}
+a:hover {
+    background-color: yellow;
+    color: blueviolet;
+}
+h2:hover{
+    font-size: xx-large;
+}
+#main {
+    background-color: lightblue;
+}
+h2 {
+    display: inline;
+}
+
+#first {
+    background-color: pink;
+}
