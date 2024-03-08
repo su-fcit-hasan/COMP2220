@@ -46,6 +46,22 @@ function myFunction5(){
     } else
         document.getElementById("food").innerHTML = "nothing come again";
 }
+function myFunction6(){
+    do{
+        var r = prompt("Which company made Javascript");
+    }while(r == "Oracle");
+    alert("Correct answer");
+}
+
+function tip(am){
+    return am * 0.20;
+}
+function myFunction7(){
+    var a = Number.parseInt(prompt("Enter total bill amount"));
+    var t = tip(a);
+    alert("Tip amount for " + a + " is " + t);
+}
+
 
 function myFunction8(clr){
     document.getElementById("body").style.backgroundColor = clr;
