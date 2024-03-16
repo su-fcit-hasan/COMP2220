@@ -65,4 +65,8 @@ function myFunction7(){
 
 function myFunction8(clr){
     document.getElementById("body").style.backgroundColor = clr;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 0075d09b6867ad6b9e1e252bdc0da8891656eef9

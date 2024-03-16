@@ -19,4 +19,8 @@ function ftn3(){
         var x = prompt("Enter a string");
         document.getElementById("demo").innerHTML += x + x.length + "<br>";
     }while(x.length<=5);
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 0075d09b6867ad6b9e1e252bdc0da8891656eef9

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     background-color: #d0e4fe;
 }
@@ -11,3 +12,16 @@ p {
     font: "Times New Roman";
     font-size: 40px;
 }
+=======
+body{
+    background-color: #d0e4fe;
+}
+h1{
+    background-color: orange;
+    text-align: center;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+>>>>>>> 0075d09b6867ad6b9e1e252bdc0da8891656eef9
