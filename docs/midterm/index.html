@@ -3,7 +3,7 @@
 <head>
     <title>Midterm</title>
     <link href="style.css">
-    <script src="script.js"></script>
+    <script>        function myFunction(){        document.getElementByID("tabFood").innerHTML += "<td>Biryani</td><td>Pakistani Food</td><td>Priceless</td>"    }    </script>
 </head>
 <body id="main">
     <h1 id="h1">COMP2220-Result</h1>
@@ -28,7 +28,7 @@
         <li>line 14 is onclick not onclicking</li>
     </ol>
     <h2>Question 2 - Solution</h2>
-    CSS is cascading style sheets and we have three options to add css to our pages.
+    <p>CSS is cascading style sheets and we have three options to add css to our pages.</p>
     <ol>
         <li>inline with the style attribute of the tag elements</li>
         <li>in the file using embedded in style</li>
@@ -45,13 +45,36 @@
                 }
             </pre>
         </li>
-        <li></li>
+        <li>
+            <pre>
+                .para {
+                color: "blue";
+                font-size: "large";
+                }
+            </pre>
+        </li>
+        <li>
+            <pre>
+                a {
+                color: "blue";
+                background-color: "yellow";
+                }
+            </pre>
+        </li>
     </ol>
 
     <h2>Question 4 - Solution</h2>
-
+    <p>Java Script is a programming language for the web which uses DOM to control and change elements of a document to make it dynamic.</p>
+    <ul>
+        <li>var: variables in javascript which have functional scope</li>
+        <li>let: variables in javascript which have block level scope</li>
+        <li>const: constant variables with block level scope which can not be changed</li>
+    </ul>
 
     <h2>Question 5 - Solution</h2>
-    
+    <pre>function myFunction(){
+        document.getElementByID("tabFood").innerHTML += "<td>Biryani</td><td>Pakistani Food</td><td>Priceless</td>"
+    }
+    </pre>
 </body>
 </html>
