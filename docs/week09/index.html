@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <script src="script.js"></script>
+    </head>
+
+    <body>
+        <h1>Week 09 - HTML Form Validation</h1>
+        <h3>Excercise 01</h3>
+        DOM or document object model is a programming interface for HTML and XML documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects. That way, programming languages can connect to the page.
+        DOM is useful in JavaScript because it allows us to manipulate the HTML and CSS of a page. It allows us to change the content of the page, the structure of the page, and the style of the page. It also allows us to add and remove elements from the page.
+
+        <h3>Excercise 02</h3>
+        HTML forms are used to collect user input. The user input can be collected using the following elements:
+        <ul>
+            <li>Text input</li>
+            <li>Password input</li>
+            <li>Radio buttons</li>
+            <li>Checkboxes</li>
+            <li>File input</li>
+            <li>Submit button</li>
+            <li>Reset button</li>
+            <li>Dropdown list</li>
+            <li>Text area</li>
+        </ul>
+
+        <h3>Excercise 03</h3>
+        <ul>
+            <li>action: The action attribute specifies where to send the form-data when a form is submitted.</li>
+            <li>method: The method attribute specifies the HTTP method (GET or POST) to be used when submitting the form data.</li>
+            <li>name: The name attribute specifies the name of the form.</li>
+            <li>autocomplete: The autocomplete attribute specifies whether a form or input field should have autocomplete enabled.</li>
+            <li>target: The target attribute specifies a name or a keyword that indicates where to display the response that is received after submitting the form.</li>
+        </ul>
+
+        <h3>Excercise 04</h3>
+        Required attribute can be associated with Form for FORM Validation and also with onsubmit we can call a function to validate the form.
+
+        <h3>Excercise 05</h3>
+        <input type="text" id="name"> <button onclick="myftn5()">Validate</button>
+        <div id="error5"></div>
+        <pre>
+            function myftn5() {
+                var nameInput = document.getElementById("name");
+                var errorDiv = document.getElementById("error");
+    
+                if (nameInput.value === "") {
+                    errorDiv.textContent = "Name field cannot be empty";
+                } else {
+                    errorDiv.textContent = "";
+                }
+            }
+        </pre>
+
+        <h3>Excercise 06</h3>
+        <input type="number" id="age"> <button onclick="myftn6()">Validate</button>
+        <div id="error6"></div>
+
+        <pre>
+            function myftn6() {
+                var ageInput = document.getElementById("age");
+                var errorDiv = document.getElementById("error");
+    
+                if (ageInput.value === "") {
+                    errorDiv.textContent = "Age field cannot be empty";
+                } else if (ageInput.value < 18) {
+                    errorDiv.textContent = "Age should be greater than 18";
+                } else {
+                    errorDiv.textContent = "";
+                }
+            }
+        </pre>
+
+    </body>
+</html>
