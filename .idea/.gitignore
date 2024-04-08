@@ -1,5 +1,11 @@
 # Default ignored files
 /shelf/
+<<<<<<< HEAD
 bin/
 etc/
 /workspace.xml
+=======
+/workspace.xml
+bin/
+etc/
+>>>>>>> 836b99562745b0be7c9acbad97f188bfb571ab32
