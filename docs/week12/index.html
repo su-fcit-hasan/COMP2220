@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Week 12 mysql and php</title>
+    </head>
+    <body>
+        <h1>Week 12 - mysql and php</h1>
+        <h2>Excercise 1 - week12</h2>
+        <ul>
+            <li>
+                Functions are a block of code that performs a specific task. They are used to perform a specific task.
+            </li>
+            <li>
+                Classes are a blueprint for creating objects. They are used to create objects.
+            </li>
+            <li>
+                Objects are an instance of a class. They are used to create objects.
+            </li>
+            <li>
+                Methods are functions that are used to perform a specific task on an object. They are used to perform a specific task on an object.
+            </li>
+        </ul>
+        <h2>Excercise 2 - week12</h2>
+        <ol>
+            <li>
+                Create database connection
+                $conn = new mysqli("localhost", "root", "", "superheroes");
+            </li>
+            <li>
+                Make the query and Execute SQL query on the connection $conn
+                <ul>
+                    <li>
+                        $sql1 = SELECT * FROM heros
+                    </li>
+                    <li>
+                        $sql2 = Insert into heros values (1, 'Superman', 'Clark Kent', 'Metropolis', 'DC Comics')
+                    </li>
+                    <li>
+                        $sql3 = Update heros set name = 'Clark Kent' where id = 1
+                    </li>
+                    <li>
+                        $sql4 = Delete from heros where id = 1
+                    </li>
+                </ul>
+                $result = $conn->query($sql);
+                <br/>
+                show result output in case of errors.
+            </li>
+            <li>
+                Close database connection. <br/>
+                $conn->close();
+            </li>
+        </ol>
+
+    </body>
+</html>
