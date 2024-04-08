@@ -20,10 +20,19 @@
 #	127.0.0.1       localhost
 #	::1             localhost
 # Added by Docker Desktop
-10.10.49.4 host.docker.internal
-10.10.49.4 gateway.docker.internal
+10.10.48.21 host.docker.internal
+10.10.48.21 gateway.docker.internal
 # To allow the same kube context to work on the host and the container:
 127.0.0.1 kubernetes.docker.internal
 # End of section
-127.0.0.1      docs.test            #laragon magic!   
 127.0.0.1      lab01.test           #laragon magic!   
+127.0.0.1      lab02.test           #laragon magic!   
+127.0.0.1      lab03.test           #laragon magic!   
+127.0.0.1      lab04.test           #laragon magic!   
+127.0.0.1      lab05.test           #laragon magic!   
+127.0.0.1      lab06.test           #laragon magic!   
+127.0.0.1      lab07.test           #laragon magic!   
+127.0.0.1      lab08.test           #laragon magic!   
+127.0.0.1      lab09.test           #laragon magic!   
+127.0.0.1      lab10.test           #laragon magic!   
+127.0.0.1      lab11.test           #laragon magic!   

@@ -1,0 +1,4 @@
+240408  9:25:25 [Note] Plugin 'FEDERATED' is disabled.
+240408  9:25:25  InnoDB: Initializing buffer pool, size = 8.0M
+240408  9:25:25  InnoDB: Completed initialization of buffer pool
+240408  9:25:25  InnoDB: Started; log sequence number 0 44233
