@@ -21,7 +21,7 @@ function checkOddEven() {
 
 function checkName() {
     // Get the input value
-    var name = document.getElementById("nameInput").value;
+    var name = document.getElementById("Inputname").value;
 
     // Check if the name is less than 5 characters
     if (name.length < 5) {
